@@ -9,7 +9,22 @@
     "pg": "^8.5.1"
   },
   "scripts": {
-    "start":"node ./src/app.js"
-  }
-
+    "start": "node ./src/app.js"
+  },
+  "name": "vef2-2021-v2",
+  "description": "[Kynning í fyrirlestri](https://www.youtube.com/watch?v=1kRJBE040oY).",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfj2/vef2-2021-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tfj2/vef2-2021-v2/issues"
+  },
+  "homepage": "https://github.com/tfj2/vef2-2021-v2#readme"
 }

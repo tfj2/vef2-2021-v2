@@ -12,4 +12,15 @@ if (!connectionString) {
   process.exit(1);
 }
 
-// TODO gagnagrunnstengingar
+export async function query(q){
+  const client = await pool.connect();
+
+try{
+  const result = await client.query(q);
+  return result;
+}catch(e){
+  console.error('Error selecting', e);
+}finally{
+client.release();
+}
+}
