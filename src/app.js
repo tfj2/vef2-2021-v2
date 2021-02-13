@@ -9,9 +9,16 @@ const {
 
 const app = express();
 
-// TODO setja upp rest af virkni!
+app.use(express.urlencoded({ extended: true}))
 
-// Verðum að setja bara *port* svo virki á heroku
+app.get('/', (req, res)=> {
+  res.send(
+    'Hello World'
+  )
+
+})
+
+
 app.listen(port, () => {
   console.info(`Server running at http://localhost:${port}/`);
 });

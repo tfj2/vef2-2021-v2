@@ -1,8 +1,0 @@
-{
-  "type": "module",
-  "dependencies": {
-    "eslint": "^7.20.0",
-    "lint": "^0.7.0",
-    "pg": "^8.5.1"
-  }
-}
